@@ -1,0 +1,13 @@
+class InputOutString(object):</code>
+<code> def __init__(self):</code>
+<code>  self.s = ""</code>
+
+<code>  def getString(self):</code>
+<code>  self.s = input("Nhập chuỗi:")</code>
+
+<code>  def printString(self):</code>
+<code>  print (self.s.upper())</code>
+
+<code>strObj = InputOutString()</code>
+<code>strObj.getString()</code>
+<code>strObj.printString()
